@@ -621,7 +621,7 @@ height: 44px;
 
 .footer-social-icon:hover,
 .footer-social-icon:focus{
-    /*fill: var(--text-decoration-color);*/
+    fill: var(--text-decoration-color);
 background: var(--accent-color);
 }
 
