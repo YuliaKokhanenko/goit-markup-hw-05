@@ -271,7 +271,7 @@ body{
    }
 
    /*Кнопка заказать услугу*/
-.modal-btn{
+.hero-modal-btn{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border: transparent;
     border-radius: 4px;
@@ -866,7 +866,7 @@ transform: translateY(0%);
     width: 18px;
     height: 18px;
 }
-   .footer-modal-btn{
+   .modal-btn{
     display: flex;
     align-items: center;
     justify-content: center;
