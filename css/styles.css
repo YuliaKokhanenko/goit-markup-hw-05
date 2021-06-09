@@ -831,7 +831,7 @@ transform: translateY(0%);
     overflow: hidden;
 }
    /*=========================End=================*/
-   /*------------Modal----------------*/
+   /*------------Модальное окно----------------*/
    .is-hidden{
     opacity: 0;
     visibility: hidden;
@@ -851,7 +851,7 @@ transform: translateY(0%);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    }
 
-   .modal-btn{
+  /.modal{
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
