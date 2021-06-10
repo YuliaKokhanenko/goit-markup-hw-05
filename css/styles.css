@@ -372,10 +372,10 @@ padding-bottom: 47px;
 .picture-list-gallery {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
+   /* align-items: flex-start;*/
     margin-left: -30px;
 }
-.picture-title{
+/*.picture-title{
    font-family:inherit;
    font-weight: 700;
    font-size: 36px;
@@ -383,12 +383,13 @@ padding-bottom: 47px;
    letter-spacing: 0.03em;
    color: var(--secondary-color);
    margin-bottom: 50px;
-   }
+   }*/
 
 .picture-list-item{
     margin-left: 30px;
+    margin-top: 30px;
     position: relative;
-    width: calc((1200px - 90px) / 3);
+    width: calc((100% - 90px) / 3);
 }
 
 .picture-title-p{
@@ -400,6 +401,13 @@ width: 100%;
 margin-bottom: 0;
 padding: 27px 82px;
 
+ font-family:inherit;
+   font-weight: 700;
+   font-size: 36px;
+   line-height: 1.17;
+   letter-spacing: 0.03em;
+   color: var(--secondary-color);
+   margin-bottom: 50px;
 }
 
    /*----------------TEAM---------------*/
