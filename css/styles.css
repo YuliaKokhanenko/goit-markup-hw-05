@@ -330,13 +330,6 @@ padding-bottom: 47px;
     margin-top: 30px;
     padding-left: 0; 
 }
-/*.desc-list-item::before{
-    display:block;
-    content:"";
-    width: 70px;
-    height: 70px;
-
-}*/
 
 .desc-list-title{
    font-weight: 700;
@@ -537,10 +530,10 @@ display: flex;
     transition-duration: 1250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-}
+
 .client-logo:hover,
 .client-logo:focus{
-border-color: var(--accent-color);
+    border-color: var(--accent-color);
     fill: var(--accent-color);
 }
 
@@ -551,6 +544,9 @@ border-color: var(--accent-color);
 .client-item:not(:last-child){
  margin-right: 30px;
 }
+
+
+
    /*-----------------Footer---------*/
 .footer{
    background: #2F303A;
