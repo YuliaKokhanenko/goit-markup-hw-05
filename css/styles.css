@@ -533,7 +533,6 @@ display: flex;
     border: 1px solid #afb1b8;
     border-radius: 4px;
     fill: #afb1b8;
-
     transition-property: fill, border-color;
     transition-duration: 1250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -541,9 +540,10 @@ display: flex;
 }
 .client-logo:hover,
 .client-logo:focus{
-    border-color: var(--accent-color);
+border-color: var(--accent-color);
     fill: var(--accent-color);
 }
+
 .client-item{
     display: block;
 }
@@ -753,8 +753,7 @@ color:var(--accent-color);
     margin-left: -8px;
 }
 
-.
-.picture-section{
+.portfolio-section{
     flex-wrap: wrap;
     align-items: flex-start;
     margin-top: -30px;
