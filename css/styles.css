@@ -394,7 +394,7 @@ padding-bottom: 47px;
 .picture-title-p{
     position: absolute;
     width: 100%;
-    margin-bottom: 0;
+    bottom: 0;
     padding:27px 82px;
     font-weight: 700;
     font-size: 14px;
