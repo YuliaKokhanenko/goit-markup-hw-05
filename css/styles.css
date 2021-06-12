@@ -375,7 +375,7 @@ padding-bottom: 47px;
    /* align-items: flex-start;*/
     margin-left: -30px;
 }
-/*.picture-title{
+.picture-title{
    font-family:inherit;
    font-weight: 700;
    font-size: 36px;
@@ -383,7 +383,7 @@ padding-bottom: 47px;
    letter-spacing: 0.03em;
    color: var(--secondary-color);
    margin-bottom: 50px;
-   }*/
+   }
 
 .picture-list-item{
     margin-left: 30px;
@@ -407,7 +407,6 @@ padding: 27px 82px;
    line-height: 1.17;
    letter-spacing: 0.03em;
    color: var(--secondary-color);
-   margin-bottom: 50px;
 }
 
    /*----------------TEAM---------------*/
